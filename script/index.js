@@ -10,7 +10,5 @@ $(document).ready(function() {
         $wrapper.animate({top:topNum},400);
         $this.addClass('current');
     	$tabs.not($this).removeClass('current');
-    	
     });
-
 });
