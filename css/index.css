@@ -1,12 +1,28 @@
 body{
-	min-width: 1037px;
+	min-width: 1207px;
 	color: #fff;
 	background-color: #22c3aa;
-	font-family: "微软雅黑";
+	font-family: Lato,"Microsoft YaHei",sans-serif;
+	font-size: 18px;
 }
+h1,h2,h3,h4{margin:7px 0;padding: 0;}
+ul{list-style: none;display: block;}
 .center{
 	text-align: center;
 }
+.section{
+	/*position: absolute;*/
+	margin:10px;
+	padding-left: 40px;
+	width: 90%;
+	height: 440px;
+	background-color: #0d3c50;
+}
+.section h1{
+	margin: 20px 0;
+}
+.hide{display: none;}
+.show{display: block;}
 div.container{
 	width: 100%;
 	height: 100%;
@@ -15,34 +31,172 @@ div.main-container{
 	margin: 0 auto;
 	margin-top: 100px;
 	width: 85%;
-	height: 400px;
+	height: 480px;
 }
 div.information{
 	float: left;
-	
+	position: relative;
 	width: 30%;
 	height: 100%;
 }
+div.information h1{
+	text-shadow: 1px 2px #22c3aa,2px 4px #aee2d9;
+}
+div.information p{margin: 10px 0;}
 #wanghan{
 	display: block;
 	margin: 0 auto;
 	margin-top: -50px;
 	width: 200px;
 	height: 200px;
-	border: 10px solid #aee2d9;
+	border: 10px solid #fbfad5;
 	border-radius: 50%;
 }
+div.contact{
+	margin-top: 10px;
+	padding: 0 40px 0 60px;
+	/*padding-top: 10px;*/
+	color: #fff;
+	text-align: left;
+}
+div.contact p{
+	font-size: 18px;
+	line-height: 26px;
+}
+div.contact i.fa{
+	display: inline-block;
+
+	width: 30px;
+}
 div.content{
+	position: relative;
 	float: left;
+	/*padding: 10px;*/
 	width: 70%;
 	height: 100%;
-	border: 10px solid #ccc;
-	border-radius: 15px;
-	cursor: pointer;
-	color: #22c3aa;
-	background-color: #fff;
+	border: 10px solid #fbfad5;
+	/*border-radius: 15px;*/
+	/*color: #22c3aa;*/
+	color: #e9eff2;
+	background-color: #0d3c50;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+div.content p{margin: 0;}
+div.wrapper{
+	position: absolute;
+	width: 97%;
+	top:0;
+	left: 0;
+}
+/*div.information h1{
+	margin-top: 50px;
+}*/
+#education{/*font-size: 20px;*/}
+#education ul.left{
+	float: left;
+	padding-left: 0;
+	width: 30%;
 	box-sizing:border-box;
 }
-div.information h1{
-	margin-top: 50px;
+#education ul.right{
+	float: left;
+	padding-left: 30px;
+	width: 60%;
+	box-sizing:border-box;
+}
+#awards{
+	
+}
+#professions div.skill{
+	position: relative;
+	margin: 5px 0;
+}
+#professions div.skill span{display: inline-block;width: 200px;}
+#professions div.slide{
+	position: absolute;
+	top:0;
+	left: 200px;
+	width: 200px;
+	height: 20px;
+	border: 2px solid #fcf9ab;
+	border-radius: 10px;
+}
+#professions div.slide .fill{
+	height: 20px;
+	border-radius: 7px 0 0 7px;
+	background-color: #9f3;
+}
+#professions .fill.html{   width: 85%;}
+#professions .fill.CSS{   width: 80%;}
+#professions .fill.Javascript{   width: 80%;}
+#professions .fill.Jquery{   width: 90%;}
+#professions .fill.Bootstrap{   width: 85%;}
+#professions .fill.Java{   width: 60%;}
+#professions .fill.C{   width: 50%;}
+#professions .fill.Photoshop{  width: 40%;}
+#experience p{
+	height: 40px;
+	line-height: 40px;
+}
+#evaluation{
+	
+}
+.eva-box{
+	padding-left: 80px;
+	width: 90%;
+	height: 340px;
+	background-image: url(../img/paper_sheet.png);
+	background-size: cover;
+	box-sizing:border-box;
+}
+.eva-box h2{
+	color: #091e27;
+	text-shadow: 3px 3px 3px #ccc;
+}
+.eva-box ul{
+	padding: 1px;
+}
+.eva-box p{
+	height: 30px;
+	line-height: 30px;
+	color: #2e2e22;
+}
+#tabs-ul{
+	position: absolute;
+	top:0;
+	right: 0;
+	margin-top: 0;
+	display: block;
+}
+#tabs-ul li{
+	display: block;
+	margin:9px 0;
+	width: 78px;
+	height: 78px;
+	line-height: 78px;
+	border-radius: 50%;
+	border:2px solid #008a75;
+	text-align: center;
+	background-color: #008a75;
+	-webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+#tabs-ul a{
+	color: #aee2d9;
+	text-decoration: none;
+}
+/*#tabs-ul a:hover{
+	color: #fff;
+	
+}*/
+#tabs-ul li.current{
+	background: #fff;
+}
+#tabs-ul li.current a{color: #008a75;}
+#tabs-ul li:hover {
+    background: #fff;
+}
+#tabs-ul li:hover a{
+	color: #008a75;
 }
