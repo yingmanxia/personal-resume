@@ -183,6 +183,36 @@ div.wrapper{
 	padding-left: 10px;
 	border-left: 2px dotted #ccc;
 }
+.eva-box ul.interests .more{
+	margin-top: 50px;
+	color: #0d3c50;
+}
+.eva-box ul.interests .links{
+	height: 50px;
+	line-height: 50px;
+}
+.eva-box ul.interests .github{
+	display: inline-block;
+	width: 60px;
+	border-radius: 50%;
+	color: #0d3c50;
+	font-size: 40px;
+	-webkit-transition:0.6s;
+	transition:0.6s;
+}
+.eva-box ul.interests .csdn{
+	display: inline-block;
+	color: #0d3c50;
+	-webkit-transition:0.6s;
+	transition:0.6s;
+	/*background-color: #0d3c50;*/
+}
+.eva-box ul.interests a.github:hover{
+	color: #9f3;
+}
+.eva-box ul.interests a.csdn:hover{
+	color: #9f3;
+}
 .eva-box:after {display:block;clear:both;content:"";overflow:hidden;height:0}
 .eva-box:{zoom:1}
 .eva-box p{
