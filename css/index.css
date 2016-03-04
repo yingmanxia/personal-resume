@@ -193,10 +193,7 @@ div.wrapper{
 }
 .eva-box ul.interests .github{
 	display: inline-block;
-	width: 60px;
-	border-radius: 50%;
 	color: #0d3c50;
-	font-size: 40px;
 	-webkit-transition:0.6s;
 	transition:0.6s;
 }

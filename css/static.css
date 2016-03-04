@@ -125,7 +125,7 @@ div.slide .fill.Photoshop{  width: 40%;}
 div.slide .fill.Jsp{  width: 20%;}
 div.information ul.ul-second{
 	position: absolute;
-    bottom: 70px;
+    bottom: 80px;
 	left: 30px;
 }
 div.information ul.ul-second li{
@@ -177,6 +177,10 @@ div.content{
 .eva-box ul.eva-box-left:{zoom:1}
 .eva-box .links{
 	margin-top: 40px;
+}
+.eva-box .links p.link-p{
+	height: 40px;
+	line-height: 40px;
 }
 .eva-box .github{
 	display: inline-block;
