@@ -42,7 +42,7 @@ h4.english{
 } 
 .title:after {display:block;clear:both;content:"";overflow:hidden;height:0}
 .title:{zoom:1}
-.section{margin: 40px 0;}
+.section{margin: 25px 0;}
 /*在线简历*/
 .online{
 	position: absolute;
@@ -65,7 +65,7 @@ div.information{
 	float: left;
     padding: 80px 30px;
 	width: 30%;
-    height: 1679px;
+    height: 1680px;
     color: #f1eee8;
 	box-sizing:border-box;
 	background-color: #22c3aa;
@@ -138,7 +138,7 @@ div.information ul.ul-second i.fa{
 }
 div.content{
 	float: left;
-    padding: 62px 40px;
+   	padding: 70px 40px 68px 40px;
 	width: 70%;
 	color: #6b6b6a;
 	background-color: #f1eee8;
